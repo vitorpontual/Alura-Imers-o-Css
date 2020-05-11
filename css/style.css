@@ -1,0 +1,44 @@
+body {
+	background-image: url("https://i1.wp.com/benditafaxina.com.br/wp-content/uploads/2017/08/webplunder-background-image-technology-online-website-solutions.jpg");
+	background-size: auto 100vh;
+
+	font-family: Verdana;
+}
+
+.nav-bar {
+	background-color: white ;
+	border-radius: 20em;
+
+}
+.nav-bar ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-bar li {
+	list-style: none;
+}
+
+
+a {
+	color: teal;
+	text-decoration: none;
+
+}
+
+a:hover {
+	text-decoration: underline;
+	font-weight: 15pt;
+}
+
+.sub-title,
+.site-title {
+	color: teal;
+	text-align: center;
+}
+
+.sub-title {
+	font-style: italic;
+}
+
+
