@@ -80,9 +80,37 @@ a:hover {
 .img-portfolio {
     height: 180px;
     width: 180px;
+    border-radius: 50%;
+}
+
+.items {    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.port {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact {
+    height: 200px;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 section {
-	background-image: url("/img/1*lD-F8aUgLwJqRB4v_86yKA.jpeg");
-	background-size: auto 100vh;
+    height: 500px;
+    background-color: teal;
+    color: white;
+    text-shadow: #000 1px 0 10px;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
+
+
+
